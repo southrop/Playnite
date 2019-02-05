@@ -82,7 +82,7 @@ Automatically imported games may reappear in Playnite after next import procedur
     <sys:String x:Key="LOCModuleLabel">Module</sys:String>
     <sys:String x:Key="LOCSeriesLabel">Series</sys:String>
     <sys:String x:Key="LOCVersionLabel">Version</sys:String>
-    <sys:String x:Key="LOCAgeRatingLabel">Age Rating</sys:String>
+    <sys:String x:Key="LOCAgeRatingLabel">年齢別レーティング</sys:String>
     <sys:String x:Key="LOCRegionLabel">Region</sys:String>
     <sys:String x:Key="LOCLastPlayedLabel">Last Played</sys:String>
     <sys:String x:Key="LOCMostPlayedLabel">Most Played</sys:String>
@@ -199,8 +199,8 @@ Prefer data from official Store and where not available use IGBD.com database.</
     <sys:String x:Key="LOCMenuPlatformEmulatorSettingsTitle">Platforms and Emulators</sys:String>
     <sys:String x:Key="LOCMenuTools">ツール</sys:String>
     <sys:String x:Key="LOCMenuDownloadMetadata">Download Metadata</sys:String>
-    <sys:String x:Key="LOCMenuOpenClient">Open 3rd Party Client</sys:String>
-    <sys:String x:Key="LOCMenuReloadLibrary">Update Game Library</sys:String>
+    <sys:String x:Key="LOCMenuOpenClient">外部アプリを開く</sys:String>
+    <sys:String x:Key="LOCMenuReloadLibrary">ゲームライブラリを更新</sys:String>
     <sys:String x:Key="LOCMenuAddGame">ゲームを追加</sys:String>
     <sys:String x:Key="LOCMenuAddGameManual">Manually</sys:String>
     <sys:String x:Key="LOCMenuAddGameInstalled">Import Installed or from Folder</sys:String>
@@ -211,8 +211,8 @@ Prefer data from official Store and where not available use IGBD.com database.</
     <sys:String x:Key="LOCSDKDocumentation">SDK Documentation</sys:String>
 
     <!--Settings Window-->
-    <sys:String x:Key="LOCSettingsGeneralLabel">General</sys:String>
-    <sys:String x:Key="LOCSettingsAppearanceLabel">Appearance</sys:String>
+    <sys:String x:Key="LOCSettingsGeneralLabel">一般</sys:String>
+    <sys:String x:Key="LOCSettingsAppearanceLabel">外観</sys:String>
     <sys:String x:Key="LOCSettingsAdvancedLabel">Advanced</sys:String>
     <sys:String x:Key="LOCSettingsFullscreenLabel">フルスクリーン</sys:String>
     <sys:String x:Key="LOCSettingsProvidersLabel">Providers</sys:String>

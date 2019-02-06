@@ -20,8 +20,8 @@
     <sys:String x:Key="LOCAboutWindowTitle">Playnite について</sys:String>
     <sys:String x:Key="LOCAboutAuthor">Made by Josef Němec</sys:String>
 
-    <sys:String x:Key="LOCCategoryWindowTitle">Assign Category</sys:String>
-    <sys:String x:Key="LOCCategorySetButton">Set Categories</sys:String>
+    <sys:String x:Key="LOCCategoryWindowTitle">カテゴリーを設定</sys:String>
+    <sys:String x:Key="LOCCategorySetButton">保存</sys:String>
     <sys:String x:Key="LOCCategoryAddCatButton">カテゴリーを追加</sys:String>
     <sys:String x:Key="LOCCategoryTooltip" xml:space="preserve">Checked - Assign category
 Unchecked - Remove category
@@ -181,24 +181,24 @@ Official Store > IGDB:
 Prefer data from official Store and where not available use IGBD.com database.</sys:String>
 
     <!--Progess string-->
-    <sys:String x:Key="LOCProgressSteamLibImport">Downloading Steam library updates...</sys:String>
-    <sys:String x:Key="LOCProgressGOGLibImport">Downloading GOG library updates...</sys:String>
-    <sys:String x:Key="LOCProgressOriginLibImport">Downloading Origin library updates...</sys:String>
-    <sys:String x:Key="LOCProgressBattleNetLibImport">Downloading Battle.net library updates...</sys:String>
-    <sys:String x:Key="LOCProgressMetadata">Downloading metadata...</sys:String>
-    <sys:String x:Key="LOCProgressInstalledGames">Importing installed games...</sys:String>
-    <sys:String x:Key="LOCProgressImportinGames">Importing {0} games...</sys:String>
-    <sys:String x:Key="LOCProgressLibraryGames">Downloading library updates...</sys:String>
-    <sys:String x:Key="LOCProgressSteamCategoryImport">Downloading library updates...</sys:String>
-    <sys:String x:Key="LOCProgressLibImportFinish">Library update finished</sys:String>
-    <sys:String x:Key="LOCProgressReleasingResources">Releasing resources...</sys:String>
+    <sys:String x:Key="LOCProgressSteamLibImport">Steam のライブラリを更新中</sys:String>
+    <sys:String x:Key="LOCProgressGOGLibImport">GOG のライブラリを更新中</sys:String>
+    <sys:String x:Key="LOCProgressOriginLibImport">Origin のライブラリを更新中</sys:String>
+    <sys:String x:Key="LOCProgressBattleNetLibImport">Battle.net のライブラリを更新中</sys:String>
+    <sys:String x:Key="LOCProgressMetadata">メタデータを更新中</sys:String>
+    <sys:String x:Key="LOCProgressInstalledGames">インストール済のゲームをインポート中</sys:String>
+    <sys:String x:Key="LOCProgressImportinGames">{0} のゲームをインポート中</sys:String>
+    <sys:String x:Key="LOCProgressLibraryGames">ライブラリを更新中</sys:String>
+    <sys:String x:Key="LOCProgressSteamCategoryImport">ライブラリを更新中</sys:String>
+    <sys:String x:Key="LOCProgressLibImportFinish">ライブラリの更新完了</sys:String>
+    <sys:String x:Key="LOCProgressReleasingResources">リソースを解放中</sys:String>
 
     <!--Menu-->
-    <sys:String x:Key="LOCMenuConfigurationTitle">Configuration</sys:String>
+    <sys:String x:Key="LOCMenuConfigurationTitle">コンフィグ</sys:String>
     <sys:String x:Key="LOCMenuPlayniteSettingsTitle">設定</sys:String>
-    <sys:String x:Key="LOCMenuPlatformEmulatorSettingsTitle">Platforms and Emulators</sys:String>
+    <sys:String x:Key="LOCMenuPlatformEmulatorSettingsTitle">プラットフォーム・エミュレータ</sys:String>
     <sys:String x:Key="LOCMenuTools">ツール</sys:String>
-    <sys:String x:Key="LOCMenuDownloadMetadata">Download Metadata</sys:String>
+    <sys:String x:Key="LOCMenuDownloadMetadata">メタデータを取得</sys:String>
     <sys:String x:Key="LOCMenuOpenClient">外部アプリを開く</sys:String>
     <sys:String x:Key="LOCMenuReloadLibrary">ゲームライブラリを更新</sys:String>
     <sys:String x:Key="LOCMenuAddGame">ゲームを追加</sys:String>
@@ -247,7 +247,7 @@ Prefer data from official Store and where not available use IGBD.com database.</
     <sys:String x:Key="LOCSettingsSkinFullscreen">フルスクリーンモード用テーマ</sys:String>
     <sys:String x:Key="LOCSettingsSkinColorFullscreen">フルスクリーンモード用テーマのプロファイル</sys:String>
     <sys:String x:Key="LOCSettingsDBLocation">データベース保存先</sys:String>
-    <sys:String x:Key="LOCSettingsWhatsSteamName">What's my account name?</sys:String>
+    <sys:String x:Key="LOCSettingsWhatsSteamName">アカウント名とは？</sys:String>
     <sys:String x:Key="LOCSettingsLoginStatus">ログイン状態：</sys:String>
     <sys:String x:Key="LOCSettingsSteamLibrarySource">Specify user library by:</sys:String>
     <sys:String x:Key="LOCSettingsWindowTitle">Playnite 設定</sys:String>
@@ -467,7 +467,7 @@ Please attach following ID to your crash report:</sys:String>
     <sys:String x:Key="LOCURLInputInfoTitile">Select URL</sys:String>
     <sys:String x:Key="LOCMetadataDownloadError">Failed to download metadata: {0}</sys:String>
     <sys:String x:Key="LOCDownloadError">ダウンロードエラー</sys:String>
-    <sys:String x:Key="LOCClearFilters">Clear Filters</sys:String>
+    <sys:String x:Key="LOCClearFilters">フィルター解除</sys:String>
     <sys:String x:Key="LOCPrivateAccount">非公開アカウント</sys:String>
     <sys:String x:Key="LOCPublicAccount">公開アカウント</sys:String>
     <sys:String x:Key="LOCAPIKey">APIキー</sys:String>
@@ -483,9 +483,9 @@ Please attach following ID to your crash report:</sys:String>
     <sys:String x:Key="LOCMinimize">最小化</sys:String>
     <sys:String x:Key="LOCRestoreWindow">Restore window</sys:String>
     <sys:String x:Key="LOCClose">終了</sys:String>
-    <sys:String x:Key="LOCChange">Change</sys:String>
+    <sys:String x:Key="LOCChange">変更</sys:String>
     <sys:String x:Key="LOCAdvanced">Advanced</sys:String>
-    <sys:String x:Key="LOCNever">Never</sys:String>
+    <sys:String x:Key="LOCNever">未プレイ</sys:String>
     <sys:String x:Key="LOCNotPlayed">未プレイ</sys:String>
     <sys:String x:Key="LOCPlayed">プレイした</sys:String>
     <sys:String x:Key="LOCBeaten">クリアした</sys:String>
@@ -536,8 +536,8 @@ Please attach following ID to your crash report:</sys:String>
     <sys:String x:Key="LOCHideGame">非表示</sys:String>
     <sys:String x:Key="LOCUnHideGame">ライブラリに表示</sys:String>
     <sys:String x:Key="LOCEditGame">編集</sys:String>
-    <sys:String x:Key="LOCSetGameCategory">Set Category...</sys:String>
-    <sys:String x:Key="LOCRemoveGame">Remove</sys:String>
+    <sys:String x:Key="LOCSetGameCategory">カテゴリーを設定</sys:String>
+    <sys:String x:Key="LOCRemoveGame">削除</sys:String>
     <sys:String x:Key="LOCPlayGame">プレイ</sys:String>
     <sys:String x:Key="LOCInstallGame">インストール</sys:String>
     <sys:String x:Key="LOCUninstallGame">アンインストール</sys:String>

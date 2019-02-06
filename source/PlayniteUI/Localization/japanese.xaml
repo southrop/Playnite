@@ -246,7 +246,7 @@ Prefer data from official Store and where not available use IGBD.com database.</
     <sys:String x:Key="LOCSettingsSkinColor">テーマのプロファイル</sys:String>
     <sys:String x:Key="LOCSettingsSkinFullscreen">フルスクリーンモード用テーマ</sys:String>
     <sys:String x:Key="LOCSettingsSkinColorFullscreen">フルスクリーンモード用テーマのプロファイル</sys:String>
-    <sys:String x:Key="LOCSettingsDBLocation">Database Location</sys:String>
+    <sys:String x:Key="LOCSettingsDBLocation">データベース保存先</sys:String>
     <sys:String x:Key="LOCSettingsWhatsSteamName">What's my account name?</sys:String>
     <sys:String x:Key="LOCSettingsLoginStatus">ログイン状態：</sys:String>
     <sys:String x:Key="LOCSettingsSteamLibrarySource">Specify user library by:</sys:String>
@@ -318,7 +318,7 @@ You can also configure and import any custom emulator later via configuration me
     <sys:String x:Key="LOCEmuWizardButtonSelectFiles">Select files</sys:String>
     <sys:String x:Key="LOCEmuWizardButtonScanEmulator">Autodetect from folder...</sys:String>
     <sys:String x:Key="LOCEmuWizardButtonConfigureEmulator">Configure Emulators...</sys:String>
-    <sys:String x:Key="LOCEmuWizardScanning">Scanning...</sys:String>
+    <sys:String x:Key="LOCEmuWizardScanning">スキャン中</sys:String>
 
     <!--FirstTime Wizard-->
     <sys:String x:Key="LOCFirstWindowTitle">First Time Configuration</sys:String>
@@ -466,18 +466,18 @@ Please attach following ID to your crash report:</sys:String>
     <sys:String x:Key="LOCURLInputInfo">Enter valid web URL starting with http:// or https://</sys:String>
     <sys:String x:Key="LOCURLInputInfoTitile">Select URL</sys:String>
     <sys:String x:Key="LOCMetadataDownloadError">Failed to download metadata: {0}</sys:String>
-    <sys:String x:Key="LOCDownloadError">Download Error</sys:String>
+    <sys:String x:Key="LOCDownloadError">ダウンロードエラー</sys:String>
     <sys:String x:Key="LOCClearFilters">Clear Filters</sys:String>
-    <sys:String x:Key="LOCPrivateAccount">Private Account</sys:String>
-    <sys:String x:Key="LOCPublicAccount">Public Account</sys:String>
+    <sys:String x:Key="LOCPrivateAccount">非公開アカウント</sys:String>
+    <sys:String x:Key="LOCPublicAccount">公開アカウント</sys:String>
     <sys:String x:Key="LOCAPIKey">APIキー</sys:String>
-    <sys:String x:Key="LOCStartupError">Startup Error</sys:String>
-    <sys:String x:Key="LOCSkinError">Theme Error</sys:String>
+    <sys:String x:Key="LOCStartupError">起動エラー</sys:String>
+    <sys:String x:Key="LOCSkinError">テーマエラー</sys:String>
     <sys:String x:Key="LOCClearAll">Clear All</sys:String>
     <sys:String x:Key="LOCSetupRunning">インストール中</sys:String>
     <sys:String x:Key="LOCUninstalling">アンインストール中</sys:String>
     <sys:String x:Key="LOCGameLaunching">起動中</sys:String>
-    <sys:String x:Key="LOCGameRunning">Running</sys:String>
+    <sys:String x:Key="LOCGameRunning">実行中</sys:String>
     <sys:String x:Key="LOCInvalidURL">Invalid URL</sys:String>
     <sys:String x:Key="LOCDoNothing">何もしない</sys:String>
     <sys:String x:Key="LOCMinimize">最小化</sys:String>
@@ -534,7 +534,7 @@ Please attach following ID to your crash report:</sys:String>
     <sys:String x:Key="LOCFavoriteGame">お気に入りに追加</sys:String>
     <sys:String x:Key="LOCRemoveFavoriteGame">お気に入りから削除</sys:String>
     <sys:String x:Key="LOCHideGame">非表示</sys:String>
-    <sys:String x:Key="LOCUnHideGame">Show in Library</sys:String>
+    <sys:String x:Key="LOCUnHideGame">ライブラリに表示</sys:String>
     <sys:String x:Key="LOCEditGame">編集</sys:String>
     <sys:String x:Key="LOCSetGameCategory">Set Category...</sys:String>
     <sys:String x:Key="LOCRemoveGame">Remove</sys:String>
@@ -542,7 +542,7 @@ Please attach following ID to your crash report:</sys:String>
     <sys:String x:Key="LOCInstallGame">インストール</sys:String>
     <sys:String x:Key="LOCUninstallGame">アンインストール</sys:String>
     <sys:String x:Key="LOCOpenGameLocation">インストール先を開く</sys:String>
-    <sys:String x:Key="LOCCreateDesktopShortcut">Create Desktop Shortcut</sys:String>
+    <sys:String x:Key="LOCCreateDesktopShortcut">デスクトップショートカットを作成</sys:String>
     <sys:String x:Key="LOCMoreAction">More</sys:String>
     <sys:String x:Key="LOCPlayActionUsePlugin">Managed by library plugin</sys:String>
     <sys:String x:Key="LOCPlayActionUsePluginTooltip">Game's starting process will be managed by the library plugin responsible for this game.</sys:String>
@@ -567,9 +567,9 @@ Please attach following ID to your crash report:</sys:String>
     <sys:String x:Key="LOCPlayedSeconds">{0} 秒</sys:String>
     <sys:String x:Key="LOCPlayedNone">未プレイ</sys:String>
 
-    <sys:String x:Key="LOCOpeningDesktopModeMessage">Opening Desktop mode...</sys:String>
-    <sys:String x:Key="LOCOpeningFullscreenModeMessage">Opening Fullscreen mode...</sys:String>
-    <sys:String x:Key="LOCOpeningDatabase">Loading game library...</sys:String>
+    <sys:String x:Key="LOCOpeningDesktopModeMessage">デスクトップモードへ切り替え中</sys:String>
+    <sys:String x:Key="LOCOpeningFullscreenModeMessage">フルスクリーンモードへ切り替え中</sys:String>
+    <sys:String x:Key="LOCOpeningDatabase">ゲームライブラリをロード中</sys:String>
     <sys:String x:Key="LOCScriptInstallFail">Failed to install script file.</sys:String>
     <sys:String x:Key="LOCScriptInstallSuccess">Script installed successfully.</sys:String>
     <sys:String x:Key="LOCInstallScript">Install Script</sys:String>
